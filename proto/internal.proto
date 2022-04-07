@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package module.internal;
+
+import "google/protobuf/timestamp.proto";
+import "module.proto";
+
+message Time {
+  TimeRaw timestamp   = 1;
+}

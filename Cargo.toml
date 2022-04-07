@@ -1,0 +1,19 @@
+[package]
+name = "reproduction-tonic-967-issue"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+# Minimal Supported Rust Version
+rust-version = "1.59"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# gRPC and server
+tonic = "0.7"
+prost = "0.10"
+
+
+[build-dependencies]
+tonic-build = "0.7"
